@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/OSWS -B /mnt/c/OSWS/build
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/OSWS/build

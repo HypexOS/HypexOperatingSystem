@@ -1,5 +1,0 @@
-/mnt/c/OSWS/build/CMakeFiles/OS.dir
-/mnt/c/OSWS/build/CMakeFiles/PostBuild.dir
-/mnt/c/OSWS/build/CMakeFiles/PerformAll.dir
-/mnt/c/OSWS/build/CMakeFiles/edit_cache.dir
-/mnt/c/OSWS/build/CMakeFiles/rebuild_cache.dir

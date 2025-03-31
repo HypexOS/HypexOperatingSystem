@@ -89,7 +89,7 @@ extern "C" [[noreturn]] void kernel_main(void)
     initialize_apic();
     initialize_ioapic();
     initialize_irq_vectors();
-    //initialize_clock();
+    initialize_clock();
     initialize_rtc();
     initialize_pcie();
     initialize_framebuffer();
@@ -113,7 +113,7 @@ extern "C" [[noreturn]] void kernel_main(void)
         get_kernel_page_map(),
         (uint64_t)&kernel_main);
     if (address) {
-        debug_print("%lx\n", address);
+        debug_print("%llx\n", address);
     }
 
     auto hProcess = create_process("/kernel.elf", "Kernel main process", nullptr, USER, false);
